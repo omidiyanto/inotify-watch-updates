@@ -28,7 +28,7 @@
 4. Reload user system services, also start and enable the service
     ```bash
     systemctl daemon-reload --user
-    systemctl enable --now watch-updates.service
+    systemctl --user enable --now watch-updates.service
     ```
 5. Check the service is now running 
     ```bash
